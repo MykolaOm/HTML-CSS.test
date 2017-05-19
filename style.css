@@ -160,3 +160,23 @@ img {
   inset 0 2px 0 rgba(0,0,0,.1);
 background-color: yellow;
 }
+
+.city-rightside-content{
+    margin: 10%;
+    font-family: "Segoe Print", sans-serif;
+    background-color: white;
+    opacity: 0.8;
+
+}
+.city-right-side{
+    margin-left: 30%;
+    font-size: 20px;
+    font-family: "Segoe Print", sans-serif;
+    color:#16bde3;
+
+
+}
+.city-right-line{
+    width: 100%;
+    border-top: 1px solid #16bde3;
+}
