@@ -1,0 +1,162 @@
+* {
+    margin: 0px auto;
+    padding: 0px auto;
+    /*----------- */
+}
+
+
+/*   body {
+		background: #fff; /* цвет фона для наглядности */
+
+
+/*		font-family: Neucha;
+	}
+*/
+
+.city-img-head {
+    background: url("img/bgheaderone.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 759px;
+    margin: 0 auto;
+}
+
+.city-head-leftside {
+    position: relative;
+    width: 40%;
+    height: 100%;
+    background-color: rgba(5, 81, 95, 0.75);
+    float: left;
+}
+
+.city-head-leftside-bar {
+    height: 100%;
+    float: right;
+    width: 60%;
+}
+
+.city-head-leftside-bar-text {
+    text-align: center;
+    /*height: ;*/
+}
+
+nav img {
+    float: left;
+    padding: 30px;
+}
+
+h1 {
+    margin-top: 126px;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: yellow;
+    font-family: "Segoe Print", sans-serif;
+}
+
+h3 {
+    font-family: "Segoe Print", sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.city-head-leftside-list {
+    font-size: 12px;
+    text-align: center;
+    font-family: "Segoe Print", sans-serif;
+    /*text-transform: uppercase;*/
+    color: yellow;
+    list-style: none;
+    display: block;
+}
+
+.city-underline {
+    position: relative;
+    /*left:50%;*/
+}
+
+.city-head-rightside {
+    float: right;
+    width: 60%;
+    height: 100%;
+}
+
+.city-AB-icons {
+    margin-top: 30px;
+    color: white;
+    font-family: "Segoe Print", sans-serif;
+}
+
+.city-A-icons {
+    float: left;
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+
+.city-A-icons,
+img {
+    vertical-align: middle;
+}
+
+#city-digits_head {
+    font-size: 22px;
+}
+
+#bubu {
+    float: left;
+    position: center;
+    margin-left: 40%;
+}
+
+.city-socialnetworks {
+    display: inline-block;
+     padding-left: 15%;
+}
+
+.city-rounds-hover {
+    display: inline-block;
+    padding-left: 25%;
+}
+
+.city-social{
+   filter: invert(60%);
+    opacity: 0.6;
+    
+}
+.city-social:hover{
+    filter: invert(0%);
+    opacity: 0.9;
+  
+
+}
+
+#city-rights {
+    
+    padding-left: 10%;
+    float: left;
+    font-family: "Segoe Print", sans-serif;
+    color: white;
+    text-align: center;
+}
+/*.bottom-line{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color:white;
+}*/
+
+.city-button {
+    display: inline-block;
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+    background-color: cadetblue;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, .25), inset 0 2px 0 rgba(255, 255, 255, .6), 0 2px 0 rgba(0, 0, 0, .1), inset 0 0 20px rgba(0, 0, 0, .1);
+}
+.city-button:hover {
+  box-shadow: inset 0 0 20px rgba(0,0,0,.2),
+  0 2px 0 rgba(255,255,255,.4),
+  inset 0 2px 0 rgba(0,0,0,.1);
+background-color: yellow;
+}
