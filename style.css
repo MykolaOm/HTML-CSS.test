@@ -230,9 +230,19 @@ img {
     
 }
 .map-content{
-    padding-left: 10%;
+    padding-left: 20%;
+    display: inline-block;
+    /*float:left;*/
 }
 .map-tram{
-    width:30%;
+    background: url("img/tram1.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 300px;
     
+}
+.map-text{
+    float: left;
+   /* display: inline-block;*/
 }
