@@ -203,11 +203,13 @@ img {
     padding-left: 4%
 }
 .city-right-button{
-    padding: 5%;
-    padding-left: 60%
+    margin-top: 5%;
+    margin-left: 4%;
+    display: inline-block;
 }
 .city-right-button:hover {
     filter: invert(10%);
+    
 }
 .map-img-bg{
     background: url("img/map4.png") no-repeat;
@@ -230,8 +232,10 @@ img {
     
 }
 .map-content{
-    padding-left: 20%;
+    margin-top: 2%;
+    margin-left: 20%;
     display: inline-block;
+    width: 55%;
     /*float:left;*/
 }
 .map-tram{
@@ -239,10 +243,42 @@ img {
     background-size: cover;
     background-position: center;
     height: 300px;
-    width: 300px;
+    width: 450px;
+    float:left
     
 }
-.map-text{
-    float: left;
+.map-qoute{
+    float:left
+    
    /* display: inline-block;*/
+}
+.map-text{
+    text-align:left;
+    width:28%;
+    font-family: "Segoe Print", sans-serif;
+    color:grey;
+    float:left;
+    height: 300px;
+}
+
+.content{
+    width: 60%;
+    
+}
+
+
+.content-head{
+    display: block;
+    
+    position: relative;
+  
+    text-align: center;
+    font-family: "Segoe Print", sans-serif;
+    font-size: 30px;
+    color: #16bde3;
+    padding-top: 1.5%;
+}
+.content-lines{
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
 }
