@@ -323,19 +323,21 @@ img {
     }
   
     .content-author,.content-right-imgtxt{
-        float:left;
-        font-size:12px;
-        margin-left: 1%;
+        
+        font-size:14px;
         text-align: left;
         margin-left: 3%;
+        float:right;
     }    
     .content-author{
-        font-size: 11px;
+        
         border-right: 1px solid blue;
         padding-top: 3%;
+        padding-right:2%;
         margin-top: 1%;
         margin-left: -4%;
         color:grey;
+        float:left
     }
     .content-textsmaller{
     text-align: justify;
