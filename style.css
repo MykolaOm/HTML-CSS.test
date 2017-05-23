@@ -3,7 +3,7 @@
     padding: 0px auto;
     /*----------- */
 }
-
+@media only screen and (min-width: 1280px) and (max-width: 1920px) {
 
 /*   body {
 		background: #fff; /* цвет фона для наглядности */
@@ -104,7 +104,7 @@ img {
 }
 
 #bubu {
-    float: left;
+    
     margin-left: 25%;
     padding: 1%;
     
@@ -263,7 +263,7 @@ img {
 
 .content{
     width: 60%;
-    
+    font-family: "Segoe Print", sans-serif;
 }
 
 
@@ -273,7 +273,7 @@ img {
     position: relative;
   
     text-align: center;
-    font-family: "Segoe Print", sans-serif;
+    
     font-size: 30px;
     color: #16bde3;
     padding-top: 1.5%;
@@ -281,4 +281,38 @@ img {
 .content-lines{
     border-bottom: 1px solid red;
     border-top: 1px solid red;
+    
 }
+.content-list{
+     text-align: center;
+    
+    
+}
+.content-list-lpart{
+    width: 25%;
+    float:left;
+    color:grey;
+}
+.content-list-rpart{
+    width: 75%;
+    float: right;
+    text-decoration: underline;
+    text-align:justify;
+}
+.content-photopages-rm1{
+    background-color: beige;
+    width: 45%;
+    float:left;
+    padding: 2%;
+    margin: 1%;
+    
+}
+.content-photopages-rm2{
+    background-color: beige;
+    width: 43%;
+    float:right;
+    padding: 2%;
+    margin: 1%;
+    
+}
+    }
