@@ -303,19 +303,21 @@ img {
 }
 .content-photopages-rm1{
     background-color: beige;
-    width: 45%;
-    float:left;
+    width: 43%;
+     display: inline-block;
+   /* float:left;*/
     padding: 2%;
     margin: 1%;
-    
+    font-size: 90%;
     
 }
 .content-photopages-rm2{
     background-color: beige;
-    width: 44%;
-    float:right;
-    padding: 1%;
+    width: 43%;
+    display: inline-block;
+    padding: 2%;
     margin: 1%;
+    font-size: 90%;
     
 }
 .content-under-imgtxt{
@@ -324,15 +326,15 @@ img {
   
     .content-author,.content-right-imgtxt{
         
-        font-size:14px;
+        font-size:50%;
         text-align: left;
-        margin-left: 3%;
+        margin-left: 0%;
         float:right;
     }    
     .content-author{
-        
+        font-size:60%;
         border-right: 1px solid blue;
-        padding-top: 3%;
+        padding-top: 1%;
         padding-right:2%;
         margin-top: 1%;
         margin-left: -4%;
@@ -345,5 +347,16 @@ img {
         padding-top: 5%;
         
 }
+    .content-lines2{
+        width:100%;
+        display:inline-block;
+        border-bottom: 1px solid red;
+        border-top: 1px solid red;
+    }
+    .content-img-hunter{
+        border-right: 9px solid #16bde3;
+        display: inline-block;
+        width: 20%;
+    }
     
 }
