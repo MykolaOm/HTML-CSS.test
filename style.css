@@ -1,7 +1,7 @@
 * {
     margin: 0px auto;
     padding: 0px auto;
-    /*----------- */
+    /*------------------------------------------ */
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1920px) {
@@ -170,8 +170,9 @@
         display: inline-block;
     }
     .city-right-button:hover {
-        filter: invert(10%);
+        filter: invert(0.3);
     }
+    /*--------------------------------------------------- */
     .map-img-bg {
         background: url("img/map4.png") no-repeat;
         background-size: cover;
@@ -217,9 +218,11 @@
         float: left;
         height: 300px;
     }
+    /*---------------------------------------------- */
     .content {
         width: 60%;
         font-family: "Segoe Print", sans-serif;
+        
     }
     .content-head {
         display: block;
@@ -228,11 +231,19 @@
         font-size: 30px;
         color: #16bde3;
         padding-top: 1.5%;
+        
     }
     .content-lines {
         border-bottom: 1px solid red;
         border-top: 1px solid red;
+        text-decoration: none;
+       
     }
+    .content-lines:hover {
+    text-decoration: underline;
+        color:red;
+    }
+    
     .content-list {
         text-align: center;
     }
@@ -240,6 +251,7 @@
         width: 25%;
         float: left;
         color: grey;
+        
     }
     .content-list-rpart {
         width: 75%;
@@ -268,12 +280,18 @@
     .content-under-imgtxt {
         border-top: 1px solid blue;
     }
+    .content-author-cng,
     .content-author,
     .content-right-imgtxt {
         font-size: 50%;
         text-align: left;
         margin-left: 0%;
         float: right;
+    }
+    .content-author-cng{
+        float:left;
+         font-size: 80%;-
+        padding-top:5%;
     }
     .content-author {
         font-size: 60%;
@@ -301,16 +319,52 @@
         display: inline-block;
         width: 20%;
     }
-    .footer-foot1{
-        background-color: aqua;
-        height:30px;
+    /*----------------------------------------------- */
+    .fotter {
+        font-family: "Segoe Print", sans-serif;
     }
-    .footer-foot2{
-        background-color: #0f44b6;
-        height:40px;
+    .footer-foot1 {
+        background-color: #31afc6;
+        height: 80px;
+        display: block;
+        font-family: "Segoe Print", sans-serif;
     }
-    .footer-foot3{
-        background-color: #051e56;
-        height:50px;
+    .footer-foot1-linkblock {
+        padding-top: 1%;
+        display: block;
+        width: 50%;
     }
+    .footer-foot1-links {
+        padding-left: 5%;
+        text-decoration: none;
+    }
+    .footer-foot1-links:hover {
+        color: red;
+        text-decoration: none;
+    }
+    .footer-foot2 {
+        background-color: #05515e;
+        height: 50px;
+        display: block;
+    }
+    .footer-foot3 {
+        background-color: #052e34;
+        height: 50px;
+        display: block;
+    }
+    .footer-foot2-cng {
+        padding-left: 31%;
+        color: aquamarine;
+        font-family: "Segoe Print", sans-serif;
+        padding-top: 0.5%;
+    }
+    .footer-foot3-cng {
+        padding-top: 0.5%;
+        padding-left: 31%;
+        color: aquamarine;
+        word-spacing: 19px;
+        font-family: "Segoe Print", sans-serif;
+    }
+    /*---------------------------------------------------------------------*/
+  
 }

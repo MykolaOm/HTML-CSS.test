@@ -1,0 +1,206 @@
+  * {
+        font-family: "Segoe Print", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    h1 {
+        margin: 1em 0;
+        text-align: center;
+    }
+    #container {
+        margin: 0 auto;
+        
+        /* Ancho del contenedor */
+    }
+    #container input {
+        width:0;
+        height: 2.5em;
+        visibility: hidden;
+    }
+    #container label {
+        background: #f9f9f9;
+        /* Fondo de las pestañas */
+        border-radius: .25em .25em 0 0;
+        color: #888;
+        /* Color del texto de las pestañas */
+        cursor: pointer;
+       
+        float: left;
+        font-size: 1em;
+        /* Tamaño del texto de las pestañas */
+        height: 2.5em;
+        line-height: 2.5em;
+        margin-right: .25em;
+        padding: 0 1.5em;
+        text-align: center;
+    }
+    #container input:hover+label {
+        background: #ddd;
+        /* Fondo de las pestañas al pasar el cursor por encima */
+        color: #666;
+        /* Color del texto de las pestañas al pasar el cursor por encima */
+    }
+    #container input:checked+label {
+        background: #f1f1f1;
+        /* Fondo de las pestañas al presionar */
+        color: #444;
+        /* Color de las pestañas al presionar */
+        position: relative;
+        z-index: 6;
+        /*
+	-webkit-transition: .1s;
+	-moz-transition: .1s;
+	-o-transition: .1s;
+	-ms-transition: .1s;
+	*/
+    }
+    #content {
+        background: #f1f1f1;
+        /* Fondo del contenido */
+        border-radius: 0 .25em .25em .25em;
+        min-height: 20em;
+        /* Alto del contenido */
+        position: relative;
+        width: 100%;
+        z-index: 5;
+    }
+    #content div {
+        opacity: 0;
+        padding: 1.5em;
+        position: absolute;
+        z-index: -100;
+        /*
+	transition: all linear 0.1s;
+	*/
+    }
+    #content-1 p {
+        clear: both;
+        margin-bottom: 1em;
+    }
+    #content-1 p.left img {
+        
+    }
+    #content-1 p.last {
+        
+    }
+    #content-2 p {
+        
+    }
+    #content-2 p.column-right {
+        margin-left: 3%;
+    }
+    #content-2{
+        
+    }
+    #content-4{
+     
+    }
+    #content-5{
+      
+    }
+    #content-6{
+        
+    }
+    
+    
+    #container input#tab-1:checked~#content #content-1,
+    #container input#tab-2:checked~#content #content-2,
+    #container input#tab-3:checked~#content #content-3,
+    #container input#tab-4:checked~#content #content-4,
+    #container input#tab-5:checked~#content #content-5,
+    #container input#tab-6:checked~#content #content-6{
+        opacity: 1;
+        z-index: 100;
+    }
+    input.visible {
+        visibility: visible !important;
+    }
+    .add-left-emptyside{
+        height: 800px;
+        width: 15%;
+        border-right: 1px solid yellow;
+        background-color:#136c7c ;
+        float: left
+      
+    }
+    .add-left-filedside{
+        height: 800px;
+        width: 10%;
+        background-color:#398592 ;
+        float: left;
+        
+        
+    }
+    .add-right-empty{
+        height: 800px;
+        width: 15%;
+        float:left;
+    }
+    .id-prj-content{
+       float: left;
+        width:60%;
+      
+    }
+
+.footer {
+        font-family: "Segoe Print", sans-serif;
+       float:left;
+    width: 100%;
+        
+    }
+    .footer-foot1 {
+        background-color: #16afc6;
+        height: 80px;
+        font-family: "Segoe Print", sans-serif;
+       
+    }
+    .footer-foot1-linkblock {
+        padding-top: 1%;
+        width: 50%;
+       margin-left: 24%;
+    }
+    .footer-foot1-links {
+        padding-left: 5%;
+        text-decoration: none;
+    }
+    .footer-foot1-links:hover {
+        color: red;
+        text-decoration: none;
+    }
+    .footer-foot2 {
+        background-color: #05515e;
+        height: 50px;
+        display: block;
+    }
+    .footer-foot3 {
+        background-color: #052e34;
+        height: 50px;
+        display: block;
+    }
+    .footer-foot2-cng {
+        padding-left: 31%;
+        color: aquamarine;
+        font-family: "Segoe Print", sans-serif;
+        padding-top: 0.5%;
+    }
+    .footer-foot3-cng {
+        padding-top: 0.5%;
+        padding-left: 31%;
+        color: aquamarine;
+        word-spacing: 19px;
+        font-family: "Segoe Print", sans-serif;
+    }
+  .city-nav {
+        float: left;
+        padding: 30px;
+    }
+
+.city-nav li{
+    list-style: none;
+}
+
+.city-nav ul ul{
+				padding-left: 10%;
+			}
