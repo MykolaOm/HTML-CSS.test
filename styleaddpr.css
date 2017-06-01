@@ -188,19 +188,18 @@
       border: 5px solid #c6e2e6;
       transition: opacity 0.5s;
       text-align: center;
-      
   }
   
   .add-fon {
       height: 1600px;
   }
   
-  #punkt1:checked~#table>div:nth-of-type(1) ,
-  #punkt2:checked~#table>div:nth-of-type(2) ,
-  #punkt3:checked~#table>div:nth-of-type(3) ,
-  #punkt4:checked~#table>div:nth-of-type(4) ,
-  #punkt5:checked~#table>div:nth-of-type(5) ,
-  #punkt6:checked~#table>div:nth-of-type(6){
+  #punkt1:checked~#table>div:nth-of-type(1),
+  #punkt2:checked~#table>div:nth-of-type(2),
+  #punkt3:checked~#table>div:nth-of-type(3),
+  #punkt4:checked~#table>div:nth-of-type(4),
+  #punkt5:checked~#table>div:nth-of-type(5),
+  #punkt6:checked~#table>div:nth-of-type(6) {
       opacity: 1;
       z-index: 900;
   }
@@ -208,17 +207,17 @@
   #tab>input:checked+label {
       background: #B0E0E6;
       color: gray;
-      
   }
-#tab{
-    margin-left: 2%;
-}
+  
+  #tab {
+      margin-left: 2%;
+  }
   
   #disabled {
       background: #DCDCDC;
       color: gray;
   }
-
+  
   #name>input {
       width: 80%;
   }
@@ -280,7 +279,6 @@
       /*box-shadow: 1;*/
       opacity: 0.4;
   }
-
   
   textarea {
       border-radius: 5px;
@@ -292,16 +290,16 @@
       padding-bottom: 30px;
   }
   
-  #opis2 {
+  #add-desc {
       width: 100%;
       height: 60%;
   }
   
-  #opis2 #opis2-2 {
+  #add-desc, #add-desc-1, #add-finance{
       width: 80%;
   }
   
-  #budget {
+  # {
       width: 80%;
   }
   
@@ -350,7 +348,6 @@
   #twiterok>i {
       left: -38px;
   }
-
   
   .tab_3 td:nth-child(1n) {
       width: 90px;
@@ -408,7 +405,6 @@
   .save a:hover {
       padding-top: 5%;
   }
-
   
   .tab_4 td:nth-child(1n) {
       width: 28%;
@@ -416,7 +412,6 @@
   
   #four td:nth-child(2n) {
       width: 100%;
-
   }
   
   #four i {
@@ -447,7 +442,6 @@
   .add_person a {
       text-decoration: none;
   }
-
   
   .tab_5 td:nth-child(2n) {
       width: 83%;
@@ -491,7 +485,6 @@
       border: 1px solid #000;
       border-radius: 5px;
   }
-
   
   .save_error {
       opacity: .3;
@@ -501,7 +494,7 @@
       color: red;
       font-weight: bold;
   }
-
+  
   .content_footer {
       display: flex;
       justify-content: space-between;
@@ -511,11 +504,13 @@
   .blok-right {
       padding-top: 5%;
   }
-#add-garbage1{
-    padding-left:30%;
-    text-decoration:none;
-}
-#add-garbage1:hover{
-    text-decoration:underline;
-    color:red;
-    }
+  
+  #add-garbage1 {
+      padding-left: 30%;
+      text-decoration: none;
+  }
+  
+  #add-garbage1:hover {
+      text-decoration: underline;
+      color: red;
+  }
