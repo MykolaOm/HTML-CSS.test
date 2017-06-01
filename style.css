@@ -76,8 +76,8 @@
     }
     .city-A-icons {
         float: left;
-        margin-left: 40px;
-        padding-bottom: 10px;
+        margin-left: 8%;
+        padding-bottom: 3%;
     }
     .city-A-icons,
     img {
@@ -88,7 +88,8 @@
     }
     #bubu {
         margin-left: 25%;
-        padding: 1%;
+        padding: 2%;
+        
     }
     #bubu:hover {
         filter: invert(10%);
@@ -162,11 +163,11 @@
     .city-right-imgtxt {
         float: left;
         padding: 1%;
-        padding-left: 4%
+        padding-left: 3%
     }
     .city-right-button {
-        margin-top: 5%;
-        margin-left: 4%;
+        margin-top: 4%;
+        margin-left: 3%;
         display: inline-block;
     }
     .city-right-button:hover {
@@ -211,12 +212,13 @@
         /* display: inline-block;*/
     }
     .map-text {
-        text-align: left;
-        width: 28%;
+        text-align: justify;
+        width: 33%;
         font-family: "Segoe Print", sans-serif;
         color: grey;
         float: left;
         height: 300px;
+        font-size: 90%;
     }
     /*---------------------------------------------- */
     .content {
@@ -260,7 +262,7 @@
         text-decoration: underline;
         text-align: justify;
     }
-    .content-photopages-rm1 {
+    .content-photopages-rm1, .content-photopages-rm2, .content-photopages-rm3, .content-photopages-rm4{
         background-color: beige;
         width: 43%;
         display: inline-block;
@@ -268,15 +270,9 @@
         padding: 2%;
         margin: 1%;
         font-size: 90%;
+    
     }
-    .content-photopages-rm2 {
-        background-color: beige;
-        width: 43%;
-        display: inline-block;
-        padding: 2%;
-        margin: 1%;
-        font-size: 90%;
-    }
+     
     .content-under-imgtxt {
         border-top: 1px solid blue;
     }
