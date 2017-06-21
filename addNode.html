@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>dom</title>
+		<style>
+			.span1 {
+				display: block;
+				width: 50px;
+				height: 50px;
+				background: yellow;
+				margin: 10px;
+				float: left;
+			}
+
+			.spanRed{
+				background: red;
+				display: block;
+				width: 50px;
+				height: 50px;
+				margin: 10px;
+				float: left;
+			}
+
+			.spanGreen{
+				background: green;
+				display: block;
+				width: 50px;
+				height: 50px;
+				margin: 10px;
+				float: left;
+			}
+
+		</style>
+	</head>
+<body id="toClone">
+
+<span class="span1" onclick="setCl(this)">0</span>
+
+
+
+<script>
+var x= prompt('enter your number!','5')
+var i=1;
+for (var z=0;z<x;z++){
+var elm = document.createElement("span");
+    elm.setAttribute( "class" , "span1" );
+    elm.setAttribute("onclick", "setCl(this)" );
+   
+    
+var node = document.createTextNode(i++ + ' ');
+elm.appendChild(node);
+var element = document.getElementById("toClone");
+element.appendChild(elm);
+}
+    
+    var rand = Math.round((Math.random() * x) + 0);
+
+			function setCl(el){
+			 	var num = parseInt(el.innerHTML);
+			 	
+			 	if(num == rand){
+			 		el.setAttribute( "class" , "spanGreen" );			 		
+			 	}
+               
+			 	else
+			 	{
+			 		el.setAttribute( "class" , "spanRed" );
+			 	}
+		 	}
+</script>
+
+</body>
+</html>
